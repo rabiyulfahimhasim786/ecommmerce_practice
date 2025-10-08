@@ -3,8 +3,8 @@ from sqlalchemy.orm import Session
 from typing import List, Optional
 
 from app.core.database import get_db
-from app.models import Product, Category
-from app.schemas import Product as ProductSchema, ProductCreate
+from app.models.init import Product, Category
+from app.schemas.init import Product as ProductSchema, ProductCreate
 
 router = APIRouter()
 

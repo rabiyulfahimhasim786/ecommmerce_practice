@@ -4,8 +4,8 @@ from datetime import timedelta
 
 from app.core import security
 from app.core.database import get_db
-from app.models import User
-from app.schemas import UserCreate, User, Token
+from app.models.init import User
+from app.schemas.init import UserCreate, User, Token
 
 router = APIRouter()
 
